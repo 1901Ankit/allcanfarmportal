@@ -1,0 +1,35 @@
+/* @use '../../styles/variables.scss' as *; */
+
+
+.modal__background {
+    width: 105vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal__content {
+    min-width: 500px;
+    /* background-image: url("../../assests/images/allback.png"); */
+    min-height: 300px;
+    background-color:#ffffff;
+    border-radius: 20px;
+    position: relative;
+    padding: 40px;
+  }
+  .modal__content__close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: 24px;
+  }
